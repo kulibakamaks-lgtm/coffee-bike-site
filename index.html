@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Coffee-Bike — кава по дорозі. Кам'янець-Подільський</title>
+<meta name="description" content="Coffee-Bike — мережа кав'ярень формату TO GO в Кам'янці-Подільському. Крафтова кава, кіоски, drive-thru та затишні кав'ярні по всьому місту.">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+</head>
+<body>
+
+<!-- ==================== HEADER ==================== -->
+<header class="site-header">
+  <div class="wrap">
+    <a href="#home" class="logo"><span class="dot"></span>Coffee-Bike</a>
+    <nav class="nav-links">
+      <a href="#about">Про нас</a>
+      <a href="#menu">Меню</a>
+      <a href="#gallery">Кав'ярні</a>
+      <a href="#stories">Історії</a>
+      <a href="#locations">Локації</a>
+      <a href="#contacts">Контакти</a>
+    </nav>
+    <div class="header-cta">
+      <a href="#locations" class="btn btn-primary">Знайти кав'ярню</a>
+      <button class="burger" aria-label="Меню"><span></span></button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-nav">
+  <a href="#about">Про нас</a>
+  <a href="#menu">Меню</a>
+  <a href="#gallery">Кав'ярні</a>
+  <a href="#stories">Історії</a>
+  <a href="#locations">Локації</a>
+  <a href="#contacts">Контакти</a>
+</div>
+
+<!-- ==================== HERO ==================== -->
+<section class="hero" id="home">
+  <div class="hero-media">
+    <img src="assets/gallery/cafe-dessert-1.jpg" alt="Кава та київський торт Coffee-Bike">
+  </div>
+  <div class="wrap hero-inner">
+    <div class="hero-ticket"><span class="dot"></span>З 2016 · перша кав'ярня формату TO GO в місті</div>
+    <h1>Кава, що встигає<br>за твоїм <em>ритмом</em></h1>
+    <p class="hero-sub">Coffee-Bike — мережа кіосків, drive-thru та кав'ярень у Кам'янці-Подільському. Крафтова обсмажка, швидке обслуговування і смак, заради якого варто зупинитись.</p>
+    <div class="hero-actions">
+      <a href="#menu" class="btn btn-primary">Дивитись меню</a>
+      <a href="#locations" class="btn btn-line">Кав'ярні на карті</a>
+    </div>
+  </div>
+  <span class="hero-scroll">Гортай далі</span>
+  <div class="hero-stats">
+    <div class="wrap">
+      <div class="hero-stat"><b>2016</b><span>Рік заснування</span></div>
+      <div class="hero-stat"><b>6</b><span>Точок у місті</span></div>
+      <div class="hero-stat"><b>Київ</b><span>Партнер з обсмажки</span></div>
+      <div class="hero-stat"><b>TO GO</b><span>Формат №1 в місті</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== ABOUT ==================== -->
+<section id="about">
+  <div class="wrap">
+    <div class="about-grid">
+      <div class="about-text reveal">
+        <p>Coffee-Bike народився у Кам'янці-Подільському на початку 2016 року — як перша в місті кав'ярня формату «to go», що зробила ставку на якість кави, а не на чергу за нею.</p>
+        <p>Ми співпрацюємо з київською компанією крафтової обсмажки і продовжуємо вдосконалювати рецепти та подачу. У 2017-му любов містян до бренду переросла у мережу кіосків зі швидким обслуговуванням — і сьогодні Coffee-Bike є одним з тих, хто формував культуру кави в місті.</p>
+        <p>Кожна точка — від кіоску до флагманської кав'ярні на Соборній — тримає один стандарт смаку, незалежно від того, скільки часу у тебе є: тридцять секунд чи цілий вечір.</p>
+      </div>
+      <div class="about-receipt reveal">
+        <div class="about-receipt-row"><span>Формат</span><span>TO GO · Кіоск · Кафе</span></div>
+        <div class="about-receipt-row"><span>Заснування</span><span>2016, м. Кам'янець-Подільський</span></div>
+        <div class="about-receipt-row"><span>Обсмажка</span><span>Крафтовий партнер, Київ</span></div>
+        <div class="about-receipt-row"><span>Мережа</span><span>6 точок по місту</span></div>
+        <div class="about-receipt-row"><span>Формати сервісу</span><span>Кіоск / Drive Thru / Кафе</span></div>
+        <div class="about-receipt-row"><span>Instagram</span><span>@coffeebike.kp</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== ADVANTAGES ==================== -->
+<section class="on-dark" id="advantages">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <p class="eyebrow">Чому Coffee-Bike</p>
+      <h2>Швидко для міста, дбайливо до кави</h2>
+      <p>Ми поєднали формат вуличного кіоску зі стандартами якості справжньої кав'ярні.</p>
+    </div>
+    <div class="adv-grid reveal-stagger">
+      <div class="adv-card">
+        <span class="adv-num">01</span>
+        <h3>Крафтова обсмажка</h3>
+        <p>Зерно від київських партнерів-обсмажувальників — свіже й прослідковуване від лоту до чашки.</p>
+      </div>
+      <div class="adv-card">
+        <span class="adv-num">02</span>
+        <h3>Кава на ходу</h3>
+        <p>Формат TO GO означає, що чашка чекає на тебе швидше, ніж ти встигнеш перейти дорогу.</p>
+      </div>
+      <div class="adv-card">
+        <span class="adv-num">03</span>
+        <h3>Drive Thru</h3>
+        <p>Не виходячи з авто — під'їхав, замовив, забрав. Зручно у будь-яку погоду.</p>
+      </div>
+      <div class="adv-card">
+        <span class="adv-num">04</span>
+        <h3>Домашні перекуси</h3>
+        <p>Сінабони, чізкейки та бургери, які готують так само уважно, як і каву.</p>
+      </div>
+      <div class="adv-card">
+        <span class="adv-num">05</span>
+        <h3>Шість точок у місті</h3>
+        <p>Від Старого міста до нових районів — Coffee-Bike завжди по дорозі.</p>
+      </div>
+      <div class="adv-card">
+        <span class="adv-num">06</span>
+        <h3>Свої з 2016-го</h3>
+        <p>Один із перших брендів, що привчив місто до якісної кави «на винос».</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== MENU ==================== -->
+<section id="menu">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <p class="eyebrow">Асортимент</p>
+      <h2>Кава, перекуси, солодке</h2>
+      <p>Базове меню мережі. Актуальний асортимент і ціни — на стійці замовлення в кожній точці.</p>
+    </div>
+
+    <div class="menu-tabs reveal">
+      <button class="menu-tab is-active" data-target="panel-coffee">Кава</button>
+      <button class="menu-tab" data-target="panel-food">Перекуси</button>
+      <button class="menu-tab" data-target="panel-sweet">Солодке</button>
+    </div>
+
+    <div class="menu-panels reveal">
+      <div class="menu-panel is-active" id="panel-coffee">
+        <div class="menu-list">
+          <div class="menu-item"><span class="tag">Класика</span><h4>Еспресо</h4><p>Насичений, короткий постріл кави для швидкого старту.</p></div>
+          <div class="menu-item"><span class="tag">Класика</span><h4>Американо</h4><p>Еспресо, розбавлений гарячою водою — м'яко і легко.</p></div>
+          <div class="menu-item"><span class="tag">З молоком</span><h4>Капучино</h4><p>Баланс еспресо, молока та щільної піни.</p></div>
+          <div class="menu-item"><span class="tag">З молоком</span><h4>Лате</h4><p>Ніжний, оксамитовий, для повільного ковтка.</p></div>
+          <div class="menu-item"><span class="tag">З молоком</span><h4>Флет-вайт</h4><p>Подвійний еспресо з тонким шаром мікропіни.</p></div>
+          <div class="menu-item"><span class="tag">Авторська</span><h4>Раф</h4><p>Вершковий, солодкуватий — кавовий десерт у чашці.</p></div>
+          <div class="menu-item"><span class="tag">Альтернатива</span><h4>Фільтр</h4><p>Чистий смак зерна без молока — для поціновувачів.</p></div>
+          <div class="menu-item"><span class="tag">Без кофеїну</span><h4>Матча-латте</h4><p>Японський зелений чай на молоці — свіжо й бадьоро.</p></div>
+        </div>
+      </div>
+      <div class="menu-panel" id="panel-food">
+        <div class="menu-list">
+          <div class="menu-item has-photo"><div class="menu-item-photo" style="background-image:url('assets/menu/croissant-sandwich.jpg')"></div><div class="menu-item-body"><span class="tag">Сніданок</span><h4>Круасан-сендвіч</h4><p>Хрусткий круасан з начинкою на вибір — сирна, м'ясна, овочева.</p></div></div>
+          <div class="menu-item has-photo"><div class="menu-item-photo" style="background-image:url('assets/menu/breakfast-plate.jpg')"></div><div class="menu-item-body"><span class="tag">Сніданок</span><h4>Тарілка сніданку</h4><p>Яйця, бекон, тости, овочі — ситно і по-домашньому.</p></div></div>
+          <div class="menu-item has-photo"><div class="menu-item-photo" style="background-image:url('assets/menu/beef-burger.jpg')"></div><div class="menu-item-body"><span class="tag">Бургери</span><h4>Яловичий бургер</h4><p>Соковита котлета, овочі, фірмовий соус.</p></div></div>
+          <div class="menu-item"><span class="tag">Бургери</span><h4>Курячий бургер</h4><p>Хрустка панірування, свіжі овочі, легкий соус.</p></div>
+          <div class="menu-item has-photo"><div class="menu-item-photo" style="background-image:url('assets/menu/pulled-pork-burger.jpg')"></div><div class="menu-item-body"><span class="tag">Бургери</span><h4>Рвана свинина</h4><p>Томлене м'ясо, карамелізована цибуля, BBQ-соус.</p></div></div>
+          <div class="menu-item has-photo"><div class="menu-item-photo" style="background-image:url('assets/menu/melt-sandwich.jpg')"></div><div class="menu-item-body"><span class="tag">Гриль</span><h4>Гарячий сендвіч</h4><p>Грильований хліб з сирною начинкою, що тягнеться.</p></div></div>
+        </div>
+      </div>
+      <div class="menu-panel" id="panel-sweet">
+        <div class="menu-list">
+          <div class="menu-item has-photo"><div class="menu-item-photo" style="background-image:url('assets/menu/cinnabon.jpg')"></div><div class="menu-item-body"><span class="tag">Хіт</span><h4>Сінабон</h4><p>Теплий, з корицею і кремовою глазур'ю зверху.</p></div></div>
+          <div class="menu-item has-photo"><div class="menu-item-photo" style="background-image:url('assets/menu/kyiv-cake.jpg')"></div><div class="menu-item-body"><span class="tag">Хіт</span><h4>Київський торт</h4><p>Класика з горіховими коржами та кремом.</p></div></div>
+          <div class="menu-item has-photo"><div class="menu-item-photo" style="background-image:url('assets/menu/cheesecake.jpg')"></div><div class="menu-item-body"><span class="tag">Десерт</span><h4>Чізкейк</h4><p>Ніжний, вершковий — ідеальна пара до фільтру.</p></div></div>
+          <div class="menu-item has-photo"><div class="menu-item-photo" style="background-image:url('assets/menu/brownie.jpg')"></div><div class="menu-item-body"><span class="tag">Десерт</span><h4>Брауні</h4><p>Щільний, шоколадний, з легкою хрусткою скоринкою.</p></div></div>
+          <div class="menu-item has-photo"><div class="menu-item-photo" style="background-image:url('assets/menu/mac-roll.jpg')"></div><div class="menu-item-body"><span class="tag">Випічка</span><h4>Рол з маком</h4><p>Домашня випічка на кожен день.</p></div></div>
+          <div class="menu-item"><span class="tag">Холодне</span><h4>Санді / Флурі</h4><p>М'яке морозиво з топінгами на вибір.</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== GALLERY ==================== -->
+<section id="gallery">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <p class="eyebrow">Наші кав'ярні</p>
+      <h2>Атмосфера, яку видно на фото</h2>
+      <p>Кадри з кіосків, drive-thru та флагманської кав'ярні — таких, якими їх бачать гості щодня.</p>
+    </div>
+    <div class="gallery-grid reveal">
+      <a class="g-1" href="assets/gallery/cafe-drive.jpg" data-lightbox><img src="assets/gallery/cafe-drive.jpg" alt="Команда Coffee-Bike Drive" loading="lazy"></a>
+      <a class="g-2" href="assets/gallery/cafe-food-1.jpg" data-lightbox><img src="assets/gallery/cafe-food-1.jpg" alt="Сніданок у Coffee-Bike" loading="lazy"></a>
+      <a class="g-3" href="assets/gallery/cafe-menu-1.jpg" data-lightbox><img src="assets/gallery/cafe-menu-1.jpg" alt="Сендвіч Coffee-Bike" loading="lazy"></a>
+      <a class="g-4" href="assets/gallery/cafe-dessert-2.jpg" data-lightbox><img src="assets/gallery/cafe-dessert-2.jpg" alt="Десерт Coffee-Bike" loading="lazy"></a>
+      <a class="g-5" href="assets/gallery/cafe-drive-2.jpg" data-lightbox><img src="assets/gallery/cafe-drive-2.jpg" alt="Coffee-Bike Drive зовні" loading="lazy"></a>
+      <a class="g-6" href="assets/gallery/cafe-vibe-1.jpg" data-lightbox><img src="assets/gallery/cafe-vibe-1.jpg" alt="Гість Coffee-Bike" loading="lazy"></a>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== STORIES ==================== -->
+<section class="on-dark" id="stories">
+  <div class="wrap">
+    <div class="stories-head-row reveal">
+      <div class="section-head" style="margin-bottom:0;">
+        <p class="eyebrow">Instagram Stories</p>
+        <h2>Останні публікації</h2>
+        <p>Наживо з наших кав'ярень — свайпай, як у сторіс.</p>
+      </div>
+      <a href="https://www.instagram.com/coffeebike.kp/" target="_blank" rel="noopener" class="btn btn-line">Усі історії в Instagram</a>
+    </div>
+    <div class="stories-strip reveal" id="storiesStrip"></div>
+  </div>
+</section>
+
+<!-- Simple image lightbox for gallery -->
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close" id="lightboxClose" aria-label="Закрити">✕</button>
+  <img id="lightboxImg" src="" alt="">
+</div>
+
+<!-- Story modal -->
+<div class="story-modal" id="storyModal">
+  <button class="story-modal-close" id="storyModalClose" aria-label="Закрити">✕</button>
+  <div class="story-modal-box">
+    <div class="story-modal-media" id="storyModalMedia">
+      <div class="story-modal-progress" id="storyModalProgress"></div>
+      <div class="story-modal-nav">
+        <button id="storyPrev" aria-label="Попередній"></button>
+        <button id="storyNext" aria-label="Наступний"></button>
+      </div>
+    </div>
+    <p class="story-modal-text" id="storyModalText"></p>
+  </div>
+</div>
+
+<!-- ==================== LOCATIONS ==================== -->
+<section class="on-dark" id="locations">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <p class="eyebrow">Маршрут по місту</p>
+      <h2>Шість зупинок Coffee-Bike</h2>
+      <p>Обери найближчу точку — від Старого міста до нових районів.</p>
+    </div>
+    <div class="loc-layout reveal">
+      <div class="loc-list" id="locList"></div>
+      <div id="map"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== CONTACTS ==================== -->
+<section class="on-dark" id="contacts">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <p class="eyebrow">На зв'язку</p>
+      <h2>Напиши нам</h2>
+      <p>Питання про співпрацю, франшизу чи просто відгук — ми читаємо все.</p>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-card reveal">
+        <div class="contact-row"><span>Флагман</span><span>вул. Соборна, 9</span></div>
+        <div class="contact-row"><span>Графік</span><span>08:00–22:00, нд 11:00–22:00</span></div>
+        <div class="contact-row"><span>Інші точки</span><span>08:00–21:00, нд 11:00–21:00</span></div>
+        <div class="contact-row"><span>Instagram</span><a href="https://www.instagram.com/coffeebike.kp/" target="_blank" rel="noopener">@coffeebike.kp</a></div>
+        <div class="social-row">
+          <a class="social-btn" href="https://www.instagram.com/coffeebike.kp/" target="_blank" rel="noopener" aria-label="Instagram">
+            <svg viewBox="0 0 24 24"><path d="M12 2.2c3.2 0 3.6 0 4.9.07 1.2.06 2.1.26 2.6.46.7.26 1.2.6 1.7 1.1.5.5.9 1 1.1 1.7.2.5.4 1.4.5 2.6.1 1.3.1 1.7.1 4.9s0 3.6-.1 4.9c-.1 1.2-.3 2.1-.5 2.6-.2.7-.6 1.2-1.1 1.7-.5.5-1 .9-1.7 1.1-.5.2-1.4.4-2.6.5-1.3.1-1.7.1-4.9.1s-3.6 0-4.9-.1c-1.2-.1-2.1-.3-2.6-.5-.7-.2-1.2-.6-1.7-1.1-.5-.5-.9-1-1.1-1.7-.2-.5-.4-1.4-.5-2.6-.1-1.3-.1-1.7-.1-4.9s0-3.6.1-4.9c.1-1.2.3-2.1.5-2.6.2-.7.6-1.2 1.1-1.7.5-.5 1-.9 1.7-1.1.5-.2 1.4-.4 2.6-.46 1.3-.07 1.7-.07 4.9-.07M12 0C8.7 0 8.3 0 7 .07c-1.3.06-2.4.3-3.2.6-.9.35-1.7.8-2.4 1.5-.7.7-1.2 1.5-1.5 2.4-.3.8-.5 1.9-.6 3.2C-.1 8.7 0 9.1 0 12s0 3.3.07 4.6c.06 1.3.3 2.4.6 3.2.35.9.8 1.7 1.5 2.4.7.7 1.5 1.2 2.4 1.5.8.3 1.9.5 3.2.6C8.3 24 8.7 24 12 24s3.3 0 4.6-.07c1.3-.06 2.4-.3 3.2-.6.9-.35 1.7-.8 2.4-1.5.7-.7 1.2-1.5 1.5-2.4.3-.8.5-1.9.6-3.2.07-1.3.07-1.7.07-4.6s0-3.3-.07-4.6c-.06-1.3-.3-2.4-.6-3.2-.35-.9-.8-1.7-1.5-2.4-.7-.7-1.5-1.2-2.4-1.5-.8-.3-1.9-.5-3.2-.6C15.3 0 14.9 0 12 0z"/><path d="M12 5.8A6.2 6.2 0 1 0 12 18.2 6.2 6.2 0 0 0 12 5.8m0 10.2A4 4 0 1 1 12 8a4 4 0 0 1 0 8z"/><circle cx="18.4" cy="5.6" r="1.4"/></svg>
+          </a>
+          <a class="social-btn" href="tel:+380975394793" aria-label="Телефон">
+            <svg viewBox="0 0 24 24"><path d="M6.6 10.8c1.4 2.7 3.6 4.9 6.3 6.3l2.1-2.1c.3-.3.7-.4 1-.2 1.1.4 2.4.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1-9.4 0-17-7.6-17-17 0-.6.4-1 1-1h3.6c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.4 0 .8-.3 1L6.6 10.8z"/></svg>
+          </a>
+        </div>
+      </div>
+      <form class="contact-card contact-form reveal" id="contactForm">
+        <input type="text" placeholder="Ім'я" required>
+        <input type="tel" placeholder="Телефон або Instagram" required>
+        <textarea placeholder="Повідомлення"></textarea>
+        <button type="submit" class="btn btn-primary">Надіслати</button>
+        <p class="form-note">Демо-форма без бекенду. Підключіть Telegram-бота, Google Forms або CRM замовника перед публікацією.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== FOOTER ==================== -->
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-top">
+      <a href="#home" class="logo"><span class="dot"></span>Coffee-Bike</a>
+      <nav class="footer-nav">
+        <a href="#about">Про нас</a>
+        <a href="#menu">Меню</a>
+        <a href="#gallery">Кав'ярні</a>
+        <a href="#stories">Історії</a>
+        <a href="#locations">Локації</a>
+        <a href="#contacts">Контакти</a>
+      </nav>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year"></span> Coffee-Bike, Кам'янець-Подільський</span>
+      <span>Кава по дорозі з 2016 року</span>
+    </div>
+  </div>
+</footer>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="js/locations.js"></script>
+<script src="assets/stories/manifest.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
